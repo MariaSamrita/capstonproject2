@@ -1,0 +1,117 @@
+
+.bitcount-single-ink-<uniquifier> {
+  font-family: "Bitcount Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+    h1{
+    font-family: "Bitcount Single Ink", system-ui; 
+    font-size: 70px; 
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+body {
+    color:#b33914 ;
+    margin: 0;
+    text-align: center;
+}
+.title-text h2{
+  font-family: "Bitcount Single Ink", system-ui; 
+  font-size: 40px;
+  font-style: italic;
+}
+.korea{
+  height: 320px;
+  padding-top: 30px;
+}
+.profile h2{
+  font-family: "Permanent Marker", cursive;
+  font-style: oblique;
+  color: rgb(69, 69, 189);
+  font-size: 30px;
+}
+ .intro {
+   padding-top: 50px ;
+   padding-bottom: 40px ;
+    width: 40%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+   font-size: 22px;
+   color: rgb(8, 25, 56);
+   text-align: center;
+}
+.pskills h3{
+  padding-top: 20px;
+  
+}
+.middle1-container p{
+   color: black;
+   padding-bottom: 28px;
+   font-family: 'Times New Roman', Times, serif;
+   padding-left: 400px;
+   font-size: 22px;
+   width: 70%;
+   text-align: center;
+   
+}
+
+.contact-me h3 {
+  font-size: 27px;
+  padding-bottom: 15px;
+
+}
+
+.middle1-container{
+  padding-top: 25px;
+  background-color: rgb(215, 216, 130);
+}
+.skills h2{
+  padding-top: 20px;
+  font-size: 40px;
+}
+.contact-message {
+  font-size: 24px;
+  color: rgb(8, 25, 56);
+  width: 70%;
+ padding-left: 400px;
+}
+.middle3-container{
+  
+  padding-bottom: 35px;
+}
+.bottom-container{
+   padding-top: 20px;
+  background-color: #e4f9f5;
+  
+}
+.lavender {
+  padding-top: 20px;
+ padding-bottom: 20px;
+  height: 160px;
+  width: 120px;
+}
+.copyright{
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 0;
+ padding-bottom: 20px;
+}
