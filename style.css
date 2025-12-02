@@ -110,7 +110,7 @@ body {
 }
 
 /* ----------------------- */
-/* 📱 MOBILE RESPONSIVE FIX */
+/*  MOBILE RESPONSIVE  */
 /* ----------------------- */
 
 @media (max-width: 768px) {
@@ -146,7 +146,7 @@ body {
 }
 
 /* ------------------------ */
-/* 📱 SMALL PHONES (≤480px) */
+/*  SMALL PHONES (≤480px) */
 /* ------------------------ */
 
 @media (max-width: 480px) {
@@ -170,4 +170,5 @@ body {
   .lavender {
     width: 25%;
   }
+
 }
