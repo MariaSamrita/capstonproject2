@@ -4,114 +4,170 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0,
-    "SZP1" 0,
-    "SZP2" 0,
-    "XPN1" 0,
-    "XPN2" 0,
-    "YPN1" 0,
-    "YPN2" 0;
 }
 
-    h1{
-    font-family: "Bitcount Single Ink", system-ui; 
-    font-size: 70px; 
+h1 {
+  font-family: "Bitcount Single Ink", system-ui;
+  font-size: 70px;
 }
 
 .top-container {
-    background-color: #e4f9f5;
-    position: relative;
-    padding-top: 100px;
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
 }
+
 body {
-    color:#b33914 ;
-    margin: 0;
-    text-align: center;
+  color: #b33914;
+  margin: 0;
+  text-align: center;
 }
-.title-text h2{
-  font-family: "Bitcount Single Ink", system-ui; 
+
+.title-text h2 {
+  font-family: "Bitcount Single Ink", system-ui;
   font-size: 40px;
   font-style: italic;
 }
-.korea{
-  height: 320px;
+
+/* --- Responsive Image --- */
+.korea {
+  height: auto;
+  width: 60%;
+  max-width: 350px;
   padding-top: 30px;
+  border-radius: 10px;
+  object-fit: cover;
 }
-.profile h2{
-  font-family: "Permanent Marker", cursive;
+
+.intro {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width: 70%;
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
   font-style: oblique;
-  color: rgb(69, 69, 189);
-  font-size: 30px;
+  font-size: 22px;
+  color: rgb(8, 25, 56);
 }
- .intro {
-   padding-top: 50px ;
-   padding-bottom: 40px ;
-    width: 40%;
-    margin: auto;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
-   font-size: 22px;
-   color: rgb(8, 25, 56);
-   text-align: center;
-}
-.pskills h3{
+
+.pskills h3 {
   padding-top: 20px;
-  
 }
-.middle1-container p{
-   color: black;
-   padding-bottom: 28px;
-   font-family: 'Times New Roman', Times, serif;
-   padding-left: 400px;
-   font-size: 22px;
-   width: 70%;
-   text-align: center;
-   
+
+.middle1-container p {
+  color: black;
+  padding-bottom: 28px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
 }
 
 .contact-me h3 {
   font-size: 27px;
   padding-bottom: 15px;
-
 }
 
-.middle1-container{
+.middle1-container {
   padding-top: 25px;
   background-color: rgb(215, 216, 130);
 }
-.skills h2{
-  padding-top: 20px;
-  font-size: 40px;
-}
+
 .contact-message {
   font-size: 24px;
   color: rgb(8, 25, 56);
-  width: 70%;
- padding-left: 400px;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
 }
-.middle3-container{
-  
+
+.middle3-container {
   padding-bottom: 35px;
 }
-.bottom-container{
-   padding-top: 20px;
+
+.bottom-container {
+  padding-top: 20px;
   background-color: #e4f9f5;
-  
 }
+
 .lavender {
   padding-top: 20px;
- padding-bottom: 20px;
-  height: 160px;
+  padding-bottom: 20px;
+  height: auto;
   width: 120px;
+  max-width: 30%;
 }
-.copyright{
+
+.copyright {
   color: black;
   font-size: 21px;
   font-weight: 600;
   margin-bottom: 0;
- padding-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+/* ----------------------- */
+/* 📱 MOBILE RESPONSIVE FIX */
+/* ----------------------- */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .title-text h2 {
+    font-size: 26px;
+  }
+
+  .intro {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .middle1-container p,
+  .contact-message {
+    width: 90%;
+    padding-left: 0;
+    font-size: 18px;
+  }
+
+  .korea {
+    width: 70%;
+    max-width: 280px;
+  }
+
+  button.btn {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
+
+/* ------------------------ */
+/* 📱 SMALL PHONES (≤480px) */
+/* ------------------------ */
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .title-text h2 {
+    font-size: 22px;
+  }
+
+  .intro,
+  .middle1-container p {
+    font-size: 16px;
+  }
+
+  .korea {
+    width: 80%;
+  }
+
+  .lavender {
+    width: 25%;
+  }
 }
